@@ -16,7 +16,7 @@ app.use(express.static('app'));
 app.get('/', function(req, res) {
     //res.sendfile('./app/index.html');
     res.render('index',{
-      title: "Il mio titolo",
+      title: "My Title",
     });
 });
 

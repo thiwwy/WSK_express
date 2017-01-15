@@ -25,9 +25,14 @@ Create file:
   "retainLines": true
 }
 
-##==== GULP - automatically export SCSS in CSS when you change the style
+##==== GRUNT - automatically export SCSS in CSS when you change the style
 
-1 - install npm in the gulp folder -> npm install
+1 - install npm grunt and grunt-contrib in the folder "grunt"->
+      npm install grunt
+      npm install grunt-contrib-watch
+      npm install grunt-contrib-sass
+      npm install grunt-contrib-cssmin
+
 2 - run the grunt task -> grunt watch
 3 - You can now change your style. The CSS will be automatically exported in app/style/css
 
